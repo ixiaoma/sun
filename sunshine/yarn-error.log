@@ -1,0 +1,42 @@
+Arguments: 
+  D:\node.exe D:\bin\yarn.js add express-session
+
+PATH: 
+  D:\Ruby23-x64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\VisualSVN\bin;C:\Program Files\TortoiseSVN\bin;D:\Git\cmd;D:\Git\bin;D:\;D:\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Local\Yarn\bin
+
+Yarn version: 
+  0.24.6
+
+Node version: 
+  8.7.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "sunshine",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "supervisor ./bin/www"
+    },
+    "dependencies": {
+      "body-parser": "~1.18.2",
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.6.9",
+      "ejs": "~2.5.7",
+      "express": "~4.15.5",
+      "morgan": "~1.9.0",
+      "serve-favicon": "~2.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir 'E:\H5-1717第三阶段\sunshineApartment\sunshine\node_modules\send'
